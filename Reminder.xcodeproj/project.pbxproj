@@ -3,8 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		337E010E04CEA77DD0C5EB58 /* Pods_Reminder_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */; };
+		972E811E63FD8B1A01AAB1ED /* Pods_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */; };
+		C699433D2CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */; };
+		C699433E2CBEFC78009E6326 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943272CBEFC78009E6326 /* String+Ext.swift */; };
+		C699433F2CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */; };
+		C69943402CBEFC78009E6326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943362CBEFC78009E6326 /* SceneDelegate.swift */; };
+		C69943412CBEFC78009E6326 /* Colors-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943202CBEFC78009E6326 /* Colors-Constants.swift */; };
+		C69943422CBEFC78009E6326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943342CBEFC78009E6326 /* AppDelegate.swift */; };
+		C69943432CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432D2CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift */; };
+		C69943452CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943292CBEFC78009E6326 /* LoginBottomSheetViewModel.swift */; };
+		C69943462CBEFC78009E6326 /* Metrics-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943222CBEFC78009E6326 /* Metrics-Constants.swift */; };
+		C69943472CBEFC78009E6326 /* Text-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943242CBEFC78009E6326 /* Text-Constants.swift */; };
+		C69943492CBEFC78009E6326 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943302CBEFC78009E6326 /* SplashViewController.swift */; };
+		C699434B2CBEFC78009E6326 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432F2CBEFC78009E6326 /* SplashView.swift */; };
+		C699434C2CBEFC78009E6326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C699431C2CBEFC78009E6326 /* Assets.xcassets */; };
+		C699434D2CBEFC78009E6326 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C699431E2CBEFC78009E6326 /* Localizable.strings */; };
+		C699434E2CBEFC78009E6326 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69943352CBEFC78009E6326 /* Info.plist */; };
+		C699434F2CBEFC78009E6326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C699431C2CBEFC78009E6326 /* Assets.xcassets */; };
+		C69943502CBEFC78009E6326 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C699431E2CBEFC78009E6326 /* Localizable.strings */; };
+		C69943522CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */; };
+		C69943532CBEFC78009E6326 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943272CBEFC78009E6326 /* String+Ext.swift */; };
+		C69943542CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */; };
+		C69943552CBEFC78009E6326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943362CBEFC78009E6326 /* SceneDelegate.swift */; };
+		C69943562CBEFC78009E6326 /* Colors-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943202CBEFC78009E6326 /* Colors-Constants.swift */; };
+		C69943572CBEFC78009E6326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943342CBEFC78009E6326 /* AppDelegate.swift */; };
+		C69943582CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432D2CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift */; };
+		C699435A2CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943292CBEFC78009E6326 /* LoginBottomSheetViewModel.swift */; };
+		C699435B2CBEFC78009E6326 /* Metrics-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943222CBEFC78009E6326 /* Metrics-Constants.swift */; };
+		C699435C2CBEFC78009E6326 /* Text-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943242CBEFC78009E6326 /* Text-Constants.swift */; };
+		C699435E2CBEFC78009E6326 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943302CBEFC78009E6326 /* SplashViewController.swift */; };
+		C69943602CBEFC78009E6326 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432F2CBEFC78009E6326 /* SplashView.swift */; };
+		C69943612CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */; };
+		C69943622CBEFC78009E6326 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943272CBEFC78009E6326 /* String+Ext.swift */; };
+		C69943632CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */; };
+		C69943642CBEFC78009E6326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943362CBEFC78009E6326 /* SceneDelegate.swift */; };
+		C69943652CBEFC78009E6326 /* Colors-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943202CBEFC78009E6326 /* Colors-Constants.swift */; };
+		C69943662CBEFC78009E6326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943342CBEFC78009E6326 /* AppDelegate.swift */; };
+		C69943672CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432D2CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift */; };
+		C69943692CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943292CBEFC78009E6326 /* LoginBottomSheetViewModel.swift */; };
+		C699436A2CBEFC78009E6326 /* Metrics-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943222CBEFC78009E6326 /* Metrics-Constants.swift */; };
+		C699436B2CBEFC78009E6326 /* Text-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943242CBEFC78009E6326 /* Text-Constants.swift */; };
+		C699436D2CBEFC78009E6326 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943302CBEFC78009E6326 /* SplashViewController.swift */; };
+		C699436F2CBEFC78009E6326 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432F2CBEFC78009E6326 /* SplashView.swift */; };
+		C69943702CBEFC78009E6326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C699431C2CBEFC78009E6326 /* Assets.xcassets */; };
+		C69943712CBEFC78009E6326 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C699431E2CBEFC78009E6326 /* Localizable.strings */; };
+		C69943722CBEFC78009E6326 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69943352CBEFC78009E6326 /* Info.plist */; };
+		D3754DC6B98168F7F6F8568F /* Pods_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FD28408AC1401703D82FAE /* Pods_ReminderTests.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C62ACC9C2CB17D9D00E2B32F /* PBXContainerItemProxy */ = {
@@ -24,47 +74,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1545B311EC8F6B27DF8F5AD3 /* Pods-Reminder-ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder-ReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Reminder-ReminderUITests/Pods-Reminder-ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FC7B57911D2E3F3FB25AE33 /* Pods-Reminder-ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder-ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-Reminder-ReminderUITests/Pods-Reminder-ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		504DDBCEAD45313FB14C44C8 /* Pods-Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder.debug.xcconfig"; path = "Target Support Files/Pods-Reminder/Pods-Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		5D9CD5DD89D0B7C6EC0ED99E /* Pods-Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder.release.xcconfig"; path = "Target Support Files/Pods-Reminder/Pods-Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACC852CB17D9C00E2B32F /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACC9B2CB17D9D00E2B32F /* ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACCA52CB17D9D00E2B32F /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65AD3812CBEFEE2007EF682 /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
+		C699431C2CBEFC78009E6326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C699431D2CBEFC78009E6326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C69943202CBEFC78009E6326 /* Colors-Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors-Constants.swift"; sourceTree = "<group>"; };
+		C69943222CBEFC78009E6326 /* Metrics-Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metrics-Constants.swift"; sourceTree = "<group>"; };
+		C69943242CBEFC78009E6326 /* Text-Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-Constants.swift"; sourceTree = "<group>"; };
+		C69943272CBEFC78009E6326 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		C69943292CBEFC78009E6326 /* LoginBottomSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottomSheetViewModel.swift; sourceTree = "<group>"; };
+		C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottomSheetView.swift; sourceTree = "<group>"; };
+		C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottomSheetViewController.swift; sourceTree = "<group>"; };
+		C699432D2CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottomSheetViewDelegate.swift; sourceTree = "<group>"; };
+		C699432F2CBEFC78009E6326 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		C69943302CBEFC78009E6326 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C69943342CBEFC78009E6326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C69943352CBEFC78009E6326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69943362CBEFC78009E6326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6F161E02CBF027C00996533 /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161E22CBF027C00996533 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161E42CBF027C00996533 /* FirebaseAuthInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuthInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161E62CBF027C00996533 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161E82CBF027C00996533 /* FirebaseCoreExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161EA2CBF027C00996533 /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161EC2CBF027C00996533 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161EE2CBF027C00996533 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F161F42CBF027C00996533 /* RecaptchaInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RecaptchaInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9586906A8F77810DEFF5FDC /* Pods-ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4FD28408AC1401703D82FAE /* Pods_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCEE53A8EC6E20662B4216E /* Pods-ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C62ACCAD2CB17D9D00E2B32F /* Exceptions for "Reminder" folder in "Reminder" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C62ACC842CB17D9B00E2B32F /* Reminder */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C62ACC872CB17D9C00E2B32F /* Reminder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C62ACCAD2CB17D9D00E2B32F /* Exceptions for "Reminder" folder in "Reminder" target */,
-			);
-			path = Reminder;
-			sourceTree = "<group>";
-		};
-		C62ACC9E2CB17D9D00E2B32F /* ReminderTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReminderTests;
-			sourceTree = "<group>";
-		};
-		C62ACCA82CB17D9D00E2B32F /* ReminderUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReminderUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C62ACC822CB17D9B00E2B32F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972E811E63FD8B1A01AAB1ED /* Pods_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3754DC6B98168F7F6F8568F /* Pods_ReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,19 +134,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337E010E04CEA77DD0C5EB58 /* Pods_Reminder_ReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47058ED06848452354320786 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				504DDBCEAD45313FB14C44C8 /* Pods-Reminder.debug.xcconfig */,
+				5D9CD5DD89D0B7C6EC0ED99E /* Pods-Reminder.release.xcconfig */,
+				1545B311EC8F6B27DF8F5AD3 /* Pods-Reminder-ReminderUITests.debug.xcconfig */,
+				3FC7B57911D2E3F3FB25AE33 /* Pods-Reminder-ReminderUITests.release.xcconfig */,
+				C9586906A8F77810DEFF5FDC /* Pods-ReminderTests.debug.xcconfig */,
+				FBCEE53A8EC6E20662B4216E /* Pods-ReminderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F52F566546743E9D32246DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6F161E02CBF027C00996533 /* FirebaseAppCheckInterop.framework */,
+				C6F161E22CBF027C00996533 /* FirebaseAuth.framework */,
+				C6F161E42CBF027C00996533 /* FirebaseAuthInterop.framework */,
+				C6F161E62CBF027C00996533 /* FirebaseCore.framework */,
+				C6F161E82CBF027C00996533 /* FirebaseCoreExtension.framework */,
+				C6F161EA2CBF027C00996533 /* FirebaseCoreInternal.framework */,
+				C6F161EC2CBF027C00996533 /* GoogleUtilities.framework */,
+				C6F161EE2CBF027C00996533 /* GTMSessionFetcher.framework */,
+				C6F161F42CBF027C00996533 /* RecaptchaInterop.framework */,
+				C65AD3812CBEFEE2007EF682 /* Testing.framework */,
+				A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */,
+				A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */,
+				D4FD28408AC1401703D82FAE /* Pods_ReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C62ACC7C2CB17D9B00E2B32F = {
 			isa = PBXGroup;
 			children = (
-				C62ACC872CB17D9C00E2B32F /* Reminder */,
-				C62ACC9E2CB17D9D00E2B32F /* ReminderTests */,
-				C62ACCA82CB17D9D00E2B32F /* ReminderUITests */,
 				C62ACC862CB17D9C00E2B32F /* Products */,
+				47058ED06848452354320786 /* Pods */,
+				5F52F566546743E9D32246DD /* Frameworks */,
+				C69943372CBEFC78009E6326 /* Reminder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +194,116 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C699431F2CBEFC78009E6326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C699431C2CBEFC78009E6326 /* Assets.xcassets */,
+				C699431E2CBEFC78009E6326 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C69943212CBEFC78009E6326 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				C69943202CBEFC78009E6326 /* Colors-Constants.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		C69943232CBEFC78009E6326 /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				C69943222CBEFC78009E6326 /* Metrics-Constants.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		C69943252CBEFC78009E6326 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				C69943242CBEFC78009E6326 /* Text-Constants.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		C69943262CBEFC78009E6326 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C69943212CBEFC78009E6326 /* Colors */,
+				C69943232CBEFC78009E6326 /* Metrics */,
+				C69943252CBEFC78009E6326 /* Text */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C69943282CBEFC78009E6326 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C69943272CBEFC78009E6326 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C699432A2CBEFC78009E6326 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C69943292CBEFC78009E6326 /* LoginBottomSheetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C699432E2CBEFC78009E6326 /* LoginBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				C699432A2CBEFC78009E6326 /* ViewModel */,
+				C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */,
+				C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */,
+				C699432D2CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift */,
+			);
+			path = LoginBottomSheet;
+			sourceTree = "<group>";
+		};
+		C69943312CBEFC78009E6326 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C699432F2CBEFC78009E6326 /* SplashView.swift */,
+				C69943302CBEFC78009E6326 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C69943322CBEFC78009E6326 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C69943262CBEFC78009E6326 /* Constants */,
+				C69943282CBEFC78009E6326 /* Extensions */,
+				C699432E2CBEFC78009E6326 /* LoginBottomSheet */,
+				C69943312CBEFC78009E6326 /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C69943332CBEFC78009E6326 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C69943322CBEFC78009E6326 /* Features */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C69943372CBEFC78009E6326 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				C699431F2CBEFC78009E6326 /* Resources */,
+				C69943332CBEFC78009E6326 /* Sources */,
+				C69943342CBEFC78009E6326 /* AppDelegate.swift */,
+				C69943352CBEFC78009E6326 /* Info.plist */,
+				C69943362CBEFC78009E6326 /* SceneDelegate.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,20 +311,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C62ACCAE2CB17D9D00E2B32F /* Build configuration list for PBXNativeTarget "Reminder" */;
 			buildPhases = (
+				80E498AEC4A419C481F795A1 /* [CP] Check Pods Manifest.lock */,
 				C62ACC812CB17D9B00E2B32F /* Sources */,
 				C62ACC822CB17D9B00E2B32F /* Frameworks */,
 				C62ACC832CB17D9B00E2B32F /* Resources */,
+				40BDFF692C4C6CD35D0B5C02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C62ACC872CB17D9C00E2B32F /* Reminder */,
-			);
 			name = Reminder;
-			packageProductDependencies = (
-			);
 			productName = Reminder;
 			productReference = C62ACC852CB17D9C00E2B32F /* Reminder.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C62ACCB32CB17D9D00E2B32F /* Build configuration list for PBXNativeTarget "ReminderTests" */;
 			buildPhases = (
+				6B8C1C237E66D711606578BC /* [CP] Check Pods Manifest.lock */,
 				C62ACC972CB17D9D00E2B32F /* Sources */,
 				C62ACC982CB17D9D00E2B32F /* Frameworks */,
 				C62ACC992CB17D9D00E2B32F /* Resources */,
@@ -143,12 +340,7 @@
 			dependencies = (
 				C62ACC9D2CB17D9D00E2B32F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C62ACC9E2CB17D9D00E2B32F /* ReminderTests */,
-			);
 			name = ReminderTests;
-			packageProductDependencies = (
-			);
 			productName = ReminderTests;
 			productReference = C62ACC9B2CB17D9D00E2B32F /* ReminderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,21 +349,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C62ACCB62CB17D9D00E2B32F /* Build configuration list for PBXNativeTarget "ReminderUITests" */;
 			buildPhases = (
+				F239F9355462D78CAD941ADE /* [CP] Check Pods Manifest.lock */,
 				C62ACCA12CB17D9D00E2B32F /* Sources */,
 				C62ACCA22CB17D9D00E2B32F /* Frameworks */,
 				C62ACCA32CB17D9D00E2B32F /* Resources */,
+				146322D507BCC804C1F91897 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C62ACCA72CB17D9D00E2B32F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C62ACCA82CB17D9D00E2B32F /* ReminderUITests */,
-			);
 			name = ReminderUITests;
-			packageProductDependencies = (
-			);
 			productName = ReminderUITests;
 			productReference = C62ACCA52CB17D9D00E2B32F /* ReminderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -200,6 +389,7 @@
 				};
 			};
 			buildConfigurationList = C62ACC802CB17D9B00E2B32F /* Build configuration list for PBXProject "Reminder" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +398,6 @@
 			);
 			mainGroup = C62ACC7C2CB17D9B00E2B32F;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = C62ACC862CB17D9C00E2B32F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,6 +414,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C699434F2CBEFC78009E6326 /* Assets.xcassets in Resources */,
+				C69943502CBEFC78009E6326 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +423,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69943702CBEFC78009E6326 /* Assets.xcassets in Resources */,
+				C69943712CBEFC78009E6326 /* Localizable.strings in Resources */,
+				C69943722CBEFC78009E6326 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,16 +433,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C699434C2CBEFC78009E6326 /* Assets.xcassets in Resources */,
+				C699434D2CBEFC78009E6326 /* Localizable.strings in Resources */,
+				C699434E2CBEFC78009E6326 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146322D507BCC804C1F91897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reminder-ReminderUITests/Pods-Reminder-ReminderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reminder-ReminderUITests/Pods-Reminder-ReminderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reminder-ReminderUITests/Pods-Reminder-ReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40BDFF692C4C6CD35D0B5C02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reminder/Pods-Reminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reminder/Pods-Reminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reminder/Pods-Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8C1C237E66D711606578BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E498AEC4A419C481F795A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F239F9355462D78CAD941ADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reminder-ReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C62ACC812CB17D9B00E2B32F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69943522CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */,
+				C69943532CBEFC78009E6326 /* String+Ext.swift in Sources */,
+				C69943542CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */,
+				C69943552CBEFC78009E6326 /* SceneDelegate.swift in Sources */,
+				C69943562CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
+				C69943572CBEFC78009E6326 /* AppDelegate.swift in Sources */,
+				C69943582CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
+				C699435A2CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */,
+				C699435B2CBEFC78009E6326 /* Metrics-Constants.swift in Sources */,
+				C699435C2CBEFC78009E6326 /* Text-Constants.swift in Sources */,
+				C699435E2CBEFC78009E6326 /* SplashViewController.swift in Sources */,
+				C69943602CBEFC78009E6326 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +568,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69943612CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */,
+				C69943622CBEFC78009E6326 /* String+Ext.swift in Sources */,
+				C69943632CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */,
+				C69943642CBEFC78009E6326 /* SceneDelegate.swift in Sources */,
+				C69943652CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
+				C69943662CBEFC78009E6326 /* AppDelegate.swift in Sources */,
+				C69943672CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
+				C69943692CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */,
+				C699436A2CBEFC78009E6326 /* Metrics-Constants.swift in Sources */,
+				C699436B2CBEFC78009E6326 /* Text-Constants.swift in Sources */,
+				C699436D2CBEFC78009E6326 /* SplashViewController.swift in Sources */,
+				C699436F2CBEFC78009E6326 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +587,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C699433D2CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */,
+				C699433E2CBEFC78009E6326 /* String+Ext.swift in Sources */,
+				C699433F2CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */,
+				C69943402CBEFC78009E6326 /* SceneDelegate.swift in Sources */,
+				C69943412CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
+				C69943422CBEFC78009E6326 /* AppDelegate.swift in Sources */,
+				C69943432CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
+				C69943452CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */,
+				C69943462CBEFC78009E6326 /* Metrics-Constants.swift in Sources */,
+				C69943472CBEFC78009E6326 /* Text-Constants.swift in Sources */,
+				C69943492CBEFC78009E6326 /* SplashViewController.swift in Sources */,
+				C699434B2CBEFC78009E6326 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +617,21 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C699431E2CBEFC78009E6326 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C699431D2CBEFC78009E6326 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		C62ACCAF2CB17D9D00E2B32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504DDBCEAD45313FB14C44C8 /* Pods-Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +659,7 @@
 		};
 		C62ACCB02CB17D9D00E2B32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9CD5DD89D0B7C6EC0ED99E /* Pods-Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,7 +722,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -436,7 +785,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -457,6 +806,7 @@
 		};
 		C62ACCB42CB17D9D00E2B32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9586906A8F77810DEFF5FDC /* Pods-ReminderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +826,7 @@
 		};
 		C62ACCB52CB17D9D00E2B32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCEE53A8EC6E20662B4216E /* Pods-ReminderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +846,7 @@
 		};
 		C62ACCB72CB17D9D00E2B32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1545B311EC8F6B27DF8F5AD3 /* Pods-Reminder-ReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -512,6 +864,7 @@
 		};
 		C62ACCB82CB17D9D00E2B32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC7B57911D2E3F3FB25AE33 /* Pods-Reminder-ReminderUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

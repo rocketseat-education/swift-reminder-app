@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Firebase
 
 class LoginBottomSheetViewModel {
     func doAuth(usernameLogin: String, password: String) {
