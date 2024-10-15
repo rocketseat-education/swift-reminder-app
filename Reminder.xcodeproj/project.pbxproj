@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		337E010E04CEA77DD0C5EB58 /* Pods_Reminder_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */; };
 		972E811E63FD8B1A01AAB1ED /* Pods_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */; };
+		C61656372CBF0DB500F828F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */; };
 		C699433D2CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */; };
 		C699433E2CBEFC78009E6326 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943272CBEFC78009E6326 /* String+Ext.swift */; };
 		C699433F2CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */; };
@@ -80,6 +81,7 @@
 		5D9CD5DD89D0B7C6EC0ED99E /* Pods-Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder.release.xcconfig"; path = "Target Support Files/Pods-Reminder/Pods-Reminder.release.xcconfig"; sourceTree = "<group>"; };
 		A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C62ACC852CB17D9C00E2B32F /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACC9B2CB17D9D00E2B32F /* ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACCA52CB17D9D00E2B32F /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 		C62ACC7C2CB17D9B00E2B32F = {
 			isa = PBXGroup;
 			children = (
+				C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */,
 				C62ACC862CB17D9C00E2B32F /* Products */,
 				47058ED06848452354320786 /* Pods */,
 				5F52F566546743E9D32246DD /* Frameworks */,
@@ -414,6 +417,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61656372CBF0DB500F828F3 /* GoogleService-Info.plist in Resources */,
 				C699434F2CBEFC78009E6326 /* Assets.xcassets in Resources */,
 				C69943502CBEFC78009E6326 /* Localizable.strings in Resources */,
 			);
