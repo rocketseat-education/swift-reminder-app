@@ -14,6 +14,12 @@ class LoginBottomSheetViewController: UIViewController {
     let loginView = LoginBottomSheetView()
     let viewModel = LoginBottomSheetViewModel()
     var handleAreaHeight: CGFloat = 50.0
+    public weak var flowDelegate: LoginBottomSheetFlowDelegate?
+    
+    init(flowDelegate: LoginBottomSheetFlowDelegate) {
+        self.flowDelegate = flowDelegate
+        super.init(nibName: nil, bundle: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,11 +49,7 @@ class LoginBottomSheetViewController: UIViewController {
     
     private func bindViewModel () {
         viewModel.successResult = {
-            [weak self] in
-            let viewController = UIViewController()
-            viewController.view.backgroundColor = .red
-            self?.dismiss(animated: false)
-            self?.mainNavigation?.pushViewController(viewController, animated: true)
+            self.flowDelegate?.navigateToHome()
         }
     }
     

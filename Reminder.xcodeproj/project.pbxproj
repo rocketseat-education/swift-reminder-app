@@ -11,6 +11,9 @@
 		C616563A2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */; };
 		C616563B2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */; };
 		C616563C2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */; };
+		C616565A2CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656592CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift */; };
+		C616565B2CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656592CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift */; };
+		C616565C2CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656592CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift */; };
 		C699433D2CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */; };
 		C699433E2CBEFC78009E6326 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943272CBEFC78009E6326 /* String+Ext.swift */; };
 		C699433F2CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */; };
@@ -94,6 +97,7 @@
 		C61656552CC31B5500F828F3 /* Pods_Reminder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61656562CC31B5500F828F3 /* Pods_Reminder_ReminderUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_Reminder_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61656572CC31B5500F828F3 /* Pods_ReminderTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656592CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBottomSheetFlowDelegate.swift; sourceTree = "<group>"; };
 		C62ACC852CB17D9C00E2B32F /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACC9B2CB17D9D00E2B32F /* ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACCA52CB17D9D00E2B32F /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				C69943292CBEFC78009E6326 /* LoginBottomSheetViewModel.swift */,
+				C61656592CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -557,6 +562,7 @@
 				C69943542CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */,
 				C69943552CBEFC78009E6326 /* SceneDelegate.swift in Sources */,
 				C69943562CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
+				C616565B2CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift in Sources */,
 				C69943572CBEFC78009E6326 /* AppDelegate.swift in Sources */,
 				C69943582CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
 				C616563A2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */,
@@ -577,6 +583,7 @@
 				C69943632CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */,
 				C69943642CBEFC78009E6326 /* SceneDelegate.swift in Sources */,
 				C69943652CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
+				C616565C2CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift in Sources */,
 				C69943662CBEFC78009E6326 /* AppDelegate.swift in Sources */,
 				C69943672CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
 				C616563C2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */,
@@ -597,6 +604,7 @@
 				C699433F2CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */,
 				C69943402CBEFC78009E6326 /* SceneDelegate.swift in Sources */,
 				C69943412CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
+				C616565A2CC31EC300F828F3 /* LoginBottomSheetFlowDelegate.swift in Sources */,
 				C69943422CBEFC78009E6326 /* AppDelegate.swift in Sources */,
 				C69943432CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
 				C616563B2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */,
