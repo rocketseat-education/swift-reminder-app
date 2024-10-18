@@ -19,8 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         flowController = ReminderFlowController()
         let rootViewController = flowController?.start()
         
-        let navigation = UINavigationController(rootViewController: SplashViewController())
-        
         window.rootViewController = rootViewController
         self.window = window
         window.makeKeyAndVisible()
