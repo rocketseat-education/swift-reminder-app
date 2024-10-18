@@ -4,6 +4,49 @@
    <FileRef
       location = "group:Reminder.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:"
+      name = "Frameworks">
+      <FileRef
+         location = "build:../Debug-iphoneos/FirebaseAppCheckInterop.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/FirebaseAuth.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/FirebaseAuthInterop.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/FirebaseCore.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/FirebaseCoreExtension.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/FirebaseCoreInternal.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/GoogleUtilities.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/GTMSessionFetcher.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/RecaptchaInterop.framework">
+      </FileRef>
+      <FileRef
+         location = "developer:Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/Pods_Reminder.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/Pods_Reminder_ReminderUITests.framework">
+      </FileRef>
+      <FileRef
+         location = "build:../Debug-iphoneos/Pods_ReminderTests.framework">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>

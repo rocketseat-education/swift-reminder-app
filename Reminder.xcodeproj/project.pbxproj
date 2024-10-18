@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		337E010E04CEA77DD0C5EB58 /* Pods_Reminder_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */; };
-		972E811E63FD8B1A01AAB1ED /* Pods_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */; };
 		C61656372CBF0DB500F828F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */; };
+		C616563A2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */; };
+		C616563B2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */; };
+		C616563C2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */; };
 		C699433D2CBEFC78009E6326 /* LoginBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432C2CBEFC78009E6326 /* LoginBottomSheetViewController.swift */; };
 		C699433E2CBEFC78009E6326 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69943272CBEFC78009E6326 /* String+Ext.swift */; };
 		C699433F2CBEFC78009E6326 /* LoginBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699432B2CBEFC78009E6326 /* LoginBottomSheetView.swift */; };
@@ -54,7 +55,6 @@
 		C69943702CBEFC78009E6326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C699431C2CBEFC78009E6326 /* Assets.xcassets */; };
 		C69943712CBEFC78009E6326 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C699431E2CBEFC78009E6326 /* Localizable.strings */; };
 		C69943722CBEFC78009E6326 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69943352CBEFC78009E6326 /* Info.plist */; };
-		D3754DC6B98168F7F6F8568F /* Pods_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FD28408AC1401703D82FAE /* Pods_ReminderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,13 +79,24 @@
 		3FC7B57911D2E3F3FB25AE33 /* Pods-Reminder-ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder-ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-Reminder-ReminderUITests/Pods-Reminder-ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		504DDBCEAD45313FB14C44C8 /* Pods-Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder.debug.xcconfig"; path = "Target Support Files/Pods-Reminder/Pods-Reminder.debug.xcconfig"; sourceTree = "<group>"; };
 		5D9CD5DD89D0B7C6EC0ED99E /* Pods-Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminder.release.xcconfig"; path = "Target Support Files/Pods-Reminder/Pods-Reminder.release.xcconfig"; sourceTree = "<group>"; };
-		A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminder_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderFlowController.swift; sourceTree = "<group>"; };
+		C616564B2CC31B5500F828F3 /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616564C2CC31B5500F828F3 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616564D2CC31B5500F828F3 /* FirebaseAuthInterop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuthInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616564E2CC31B5500F828F3 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616564F2CC31B5500F828F3 /* FirebaseCoreExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656502CC31B5500F828F3 /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656512CC31B5500F828F3 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656522CC31B5500F828F3 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656532CC31B5500F828F3 /* RecaptchaInterop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RecaptchaInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656542CC31B5500F828F3 /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
+		C61656552CC31B5500F828F3 /* Pods_Reminder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656562CC31B5500F828F3 /* Pods_Reminder_ReminderUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_Reminder_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61656572CC31B5500F828F3 /* Pods_ReminderTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACC852CB17D9C00E2B32F /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACC9B2CB17D9D00E2B32F /* ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62ACCA52CB17D9D00E2B32F /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C65AD3812CBEFEE2007EF682 /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
 		C699431C2CBEFC78009E6326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C699431D2CBEFC78009E6326 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C69943202CBEFC78009E6326 /* Colors-Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors-Constants.swift"; sourceTree = "<group>"; };
@@ -101,17 +112,7 @@
 		C69943342CBEFC78009E6326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69943352CBEFC78009E6326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C69943362CBEFC78009E6326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6F161E02CBF027C00996533 /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161E22CBF027C00996533 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161E42CBF027C00996533 /* FirebaseAuthInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuthInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161E62CBF027C00996533 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161E82CBF027C00996533 /* FirebaseCoreExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161EA2CBF027C00996533 /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161EC2CBF027C00996533 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161EE2CBF027C00996533 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F161F42CBF027C00996533 /* RecaptchaInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RecaptchaInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9586906A8F77810DEFF5FDC /* Pods-ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4FD28408AC1401703D82FAE /* Pods_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCEE53A8EC6E20662B4216E /* Pods-ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +121,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972E811E63FD8B1A01AAB1ED /* Pods_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3754DC6B98168F7F6F8568F /* Pods_ReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337E010E04CEA77DD0C5EB58 /* Pods_Reminder_ReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,22 +154,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		5F52F566546743E9D32246DD /* Frameworks */ = {
+		C61656582CC31B5500F828F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6F161E02CBF027C00996533 /* FirebaseAppCheckInterop.framework */,
-				C6F161E22CBF027C00996533 /* FirebaseAuth.framework */,
-				C6F161E42CBF027C00996533 /* FirebaseAuthInterop.framework */,
-				C6F161E62CBF027C00996533 /* FirebaseCore.framework */,
-				C6F161E82CBF027C00996533 /* FirebaseCoreExtension.framework */,
-				C6F161EA2CBF027C00996533 /* FirebaseCoreInternal.framework */,
-				C6F161EC2CBF027C00996533 /* GoogleUtilities.framework */,
-				C6F161EE2CBF027C00996533 /* GTMSessionFetcher.framework */,
-				C6F161F42CBF027C00996533 /* RecaptchaInterop.framework */,
-				C65AD3812CBEFEE2007EF682 /* Testing.framework */,
-				A0424DC347EEF4E91C13C050 /* Pods_Reminder.framework */,
-				A3D90461AF59F0A1D388B203 /* Pods_Reminder_ReminderUITests.framework */,
-				D4FD28408AC1401703D82FAE /* Pods_ReminderTests.framework */,
+				C616564B2CC31B5500F828F3 /* FirebaseAppCheckInterop.framework */,
+				C616564C2CC31B5500F828F3 /* FirebaseAuth.framework */,
+				C616564D2CC31B5500F828F3 /* FirebaseAuthInterop.framework */,
+				C616564E2CC31B5500F828F3 /* FirebaseCore.framework */,
+				C616564F2CC31B5500F828F3 /* FirebaseCoreExtension.framework */,
+				C61656502CC31B5500F828F3 /* FirebaseCoreInternal.framework */,
+				C61656512CC31B5500F828F3 /* GoogleUtilities.framework */,
+				C61656522CC31B5500F828F3 /* GTMSessionFetcher.framework */,
+				C61656532CC31B5500F828F3 /* RecaptchaInterop.framework */,
+				C61656542CC31B5500F828F3 /* Testing.framework */,
+				C61656552CC31B5500F828F3 /* Pods_Reminder.framework */,
+				C61656562CC31B5500F828F3 /* Pods_Reminder_ReminderUITests.framework */,
+				C61656572CC31B5500F828F3 /* Pods_ReminderTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,11 +177,10 @@
 		C62ACC7C2CB17D9B00E2B32F = {
 			isa = PBXGroup;
 			children = (
-				C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */,
+				C69943372CBEFC78009E6326 /* Reminder */,
 				C62ACC862CB17D9C00E2B32F /* Products */,
 				47058ED06848452354320786 /* Pods */,
-				5F52F566546743E9D32246DD /* Frameworks */,
-				C69943372CBEFC78009E6326 /* Reminder */,
+				C61656582CC31B5500F828F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -298,11 +295,13 @@
 		C69943372CBEFC78009E6326 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				C61656362CBF0DB500F828F3 /* GoogleService-Info.plist */,
 				C699431F2CBEFC78009E6326 /* Resources */,
 				C69943332CBEFC78009E6326 /* Sources */,
 				C69943342CBEFC78009E6326 /* AppDelegate.swift */,
-				C69943352CBEFC78009E6326 /* Info.plist */,
 				C69943362CBEFC78009E6326 /* SceneDelegate.swift */,
+				C61656392CC31AEF00F828F3 /* ReminderFlowController.swift */,
+				C69943352CBEFC78009E6326 /* Info.plist */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -560,6 +559,7 @@
 				C69943562CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
 				C69943572CBEFC78009E6326 /* AppDelegate.swift in Sources */,
 				C69943582CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
+				C616563A2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */,
 				C699435A2CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */,
 				C699435B2CBEFC78009E6326 /* Metrics-Constants.swift in Sources */,
 				C699435C2CBEFC78009E6326 /* Text-Constants.swift in Sources */,
@@ -579,6 +579,7 @@
 				C69943652CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
 				C69943662CBEFC78009E6326 /* AppDelegate.swift in Sources */,
 				C69943672CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
+				C616563C2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */,
 				C69943692CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */,
 				C699436A2CBEFC78009E6326 /* Metrics-Constants.swift in Sources */,
 				C699436B2CBEFC78009E6326 /* Text-Constants.swift in Sources */,
@@ -598,6 +599,7 @@
 				C69943412CBEFC78009E6326 /* Colors-Constants.swift in Sources */,
 				C69943422CBEFC78009E6326 /* AppDelegate.swift in Sources */,
 				C69943432CBEFC78009E6326 /* LoginBottomSheetViewDelegate.swift in Sources */,
+				C616563B2CC31AEF00F828F3 /* ReminderFlowController.swift in Sources */,
 				C69943452CBEFC78009E6326 /* LoginBottomSheetViewModel.swift in Sources */,
 				C69943462CBEFC78009E6326 /* Metrics-Constants.swift in Sources */,
 				C69943472CBEFC78009E6326 /* Text-Constants.swift in Sources */,
