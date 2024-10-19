@@ -126,6 +126,8 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C61656612CC32E6800F828F3 /* DependencyInjection */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DependencyInjection; sourceTree = "<group>"; };
+		C61656732CC3D6FC00F828F3 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		C61656782CC3D76B00F828F3 /* UserDefaults */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = UserDefaults; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,8 @@
 		C69943322CBEFC78009E6326 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				C61656782CC3D76B00F828F3 /* UserDefaults */,
+				C61656732CC3D6FC00F828F3 /* Model */,
 				C61656612CC32E6800F828F3 /* DependencyInjection */,
 				C69943262CBEFC78009E6326 /* Constants */,
 				C69943282CBEFC78009E6326 /* Extensions */,
@@ -340,6 +344,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C61656612CC32E6800F828F3 /* DependencyInjection */,
+				C61656732CC3D6FC00F828F3 /* Model */,
+				C61656782CC3D76B00F828F3 /* UserDefaults */,
 			);
 			name = Reminder;
 			productName = Reminder;
@@ -362,6 +368,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C61656612CC32E6800F828F3 /* DependencyInjection */,
+				C61656732CC3D6FC00F828F3 /* Model */,
+				C61656782CC3D76B00F828F3 /* UserDefaults */,
 			);
 			name = ReminderTests;
 			productName = ReminderTests;
@@ -385,6 +393,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C61656612CC32E6800F828F3 /* DependencyInjection */,
+				C61656732CC3D6FC00F828F3 /* Model */,
+				C61656782CC3D76B00F828F3 /* UserDefaults */,
 			);
 			name = ReminderUITests;
 			productName = ReminderUITests;
