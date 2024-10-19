@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -123,6 +123,10 @@
 		C9586906A8F77810DEFF5FDC /* Pods-ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBCEE53A8EC6E20662B4216E /* Pods-ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-ReminderTests/Pods-ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C61656612CC32E6800F828F3 /* DependencyInjection */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DependencyInjection; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C62ACC822CB17D9B00E2B32F /* Frameworks */ = {
@@ -286,6 +290,7 @@
 		C69943322CBEFC78009E6326 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				C61656612CC32E6800F828F3 /* DependencyInjection */,
 				C69943262CBEFC78009E6326 /* Constants */,
 				C69943282CBEFC78009E6326 /* Extensions */,
 				C699432E2CBEFC78009E6326 /* LoginBottomSheet */,
@@ -333,6 +338,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				C61656612CC32E6800F828F3 /* DependencyInjection */,
+			);
 			name = Reminder;
 			productName = Reminder;
 			productReference = C62ACC852CB17D9C00E2B32F /* Reminder.app */;
@@ -351,6 +359,9 @@
 			);
 			dependencies = (
 				C62ACC9D2CB17D9D00E2B32F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C61656612CC32E6800F828F3 /* DependencyInjection */,
 			);
 			name = ReminderTests;
 			productName = ReminderTests;
@@ -371,6 +382,9 @@
 			);
 			dependencies = (
 				C62ACCA72CB17D9D00E2B32F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C61656612CC32E6800F828F3 /* DependencyInjection */,
 			);
 			name = ReminderUITests;
 			productName = ReminderUITests;
