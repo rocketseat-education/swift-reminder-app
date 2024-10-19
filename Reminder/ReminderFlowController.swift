@@ -28,7 +28,7 @@ class ReminderFlowController {
 //MARK: - Login
 extension ReminderFlowController: LoginBottomSheetFlowDelegate {
     func navigateToHome() {
-        self.navigationController?.dismiss(animated: true)
+        self.navigationController?.dismiss(animated: false)
         let viewController = UIViewController()
         viewController.view.backgroundColor = .red
         self.navigationController?.pushViewController(viewController, animated: true)

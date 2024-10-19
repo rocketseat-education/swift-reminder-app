@@ -9,7 +9,8 @@ import Foundation
 
 final class ViewControllersFactory: ViewControllersFactoryProtocol {
     func makeSplashViewController(flowDelegate: SplashFlowDelegate) -> SplashViewController {
-        let viewController = SplashViewController(flowDelegate: flowDelegate)
+        let contentView = SplashView()
+        let viewController = SplashViewController(contentView: contentView, flowDelegate: flowDelegate)
         return viewController
     }
     
