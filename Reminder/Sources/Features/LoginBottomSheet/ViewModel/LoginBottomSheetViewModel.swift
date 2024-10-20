@@ -9,7 +9,7 @@ import Foundation
 import Firebase
 
 class LoginBottomSheetViewModel {
-    var successResult: (() -> Void)?
+    var successResult: ((String) -> Void)?
     
     func doAuth(usernameLogin: String, password: String) {
         print(usernameLogin)
@@ -18,7 +18,7 @@ class LoginBottomSheetViewModel {
             if let error = error {
                 print("Autenticação não teve sucesso \(error)")
             } else {
-                self?.successResult?()
+                self?.successResult?(usernameLogin)
             }
         }
     }
