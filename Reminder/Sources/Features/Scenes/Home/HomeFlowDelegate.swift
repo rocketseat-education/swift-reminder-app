@@ -7,6 +7,6 @@
 
 import Foundation
 
-public class HomeFlowDelegate: AnyObject {
+public protocol HomeFlowDelegate: AnyObject {
     
 }
