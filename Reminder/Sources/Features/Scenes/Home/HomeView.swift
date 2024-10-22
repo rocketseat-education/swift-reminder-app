@@ -54,6 +54,7 @@ class HomeView: UIView {
     let feedbackButton: UIButton = {
         let button = UIButton()
         button.setTitle("home.feedback.button.title".localized, for: .normal)
+        button.titleLabel?.font = Typography.subHeading
         button.backgroundColor = Colors.gray100
         button.layer.cornerRadius = Metrics.medium
         button.setTitleColor(.white, for: .normal)
