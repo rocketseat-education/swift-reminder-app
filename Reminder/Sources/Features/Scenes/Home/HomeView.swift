@@ -56,7 +56,6 @@ class HomeView: UIView {
         button.setTitle("home.feedback.button.title".localized, for: .normal)
         button.titleLabel?.font = Typography.subHeading
         button.backgroundColor = Colors.gray100
-        button.layer.cornerRadius = Metrics.medium
         button.setTitleColor(.white, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -84,6 +83,16 @@ class HomeView: UIView {
         setupConstraints()
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        feedbackButton.layoutIfNeeded()
+        
+        feedbackButton.layer.cornerRadius = feedbackButton.frame.height / 2
+        feedbackButton.layer.masksToBounds = true
+    }
+    
+    
     private func setupConstraints() {
         NSLayoutConstraint.activate([
             profileBackground.topAnchor.constraint(equalTo: topAnchor),
@@ -92,7 +101,7 @@ class HomeView: UIView {
             profileBackground.trailingAnchor.constraint(equalTo: trailingAnchor),
             
             profileImage.topAnchor.constraint(equalTo: profileBackground.topAnchor, constant: Metrics.huge),
-            profileImage.leadingAnchor.constraint(equalTo: profileBackground.leadingAnchor, constant: Metrics.medium),
+            profileImage.leadingAnchor.constraint(equalTo: profileBackground.leadingAnchor, constant: Metrics.large),
             profileImage.heightAnchor.constraint(equalToConstant: Metrics.profileImageSize),
             profileImage.widthAnchor.constraint(equalToConstant: Metrics.profileImageSize),
             
@@ -103,7 +112,7 @@ class HomeView: UIView {
             nameLabel.leadingAnchor.constraint(equalTo: welcomeLabel.leadingAnchor),
             
             feedbackButton.heightAnchor.constraint(equalToConstant: Metrics.buttonSize),
-            feedbackButton.bottomAnchor.constraint(equalTo: contentBackground.bottomAnchor, constant: -Metrics.medium),
+            feedbackButton.bottomAnchor.constraint(equalTo: contentBackground.bottomAnchor, constant: -Metrics.huge),
             feedbackButton.leadingAnchor.constraint(equalTo: contentBackground.leadingAnchor, constant: Metrics.medium),
             feedbackButton.trailingAnchor.constraint(equalTo: contentBackground.trailingAnchor, constant: -Metrics.medium),
             
